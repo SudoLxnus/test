@@ -16,3 +16,4 @@ let mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player)
+music.play(music.createSong(hex`0078000408020100001c00010a006400f401640000040000000000000000000000000005000004200008000c00012410001400021d2518001c00021d291c0020000124200024000125`), music.PlaybackMode.UntilDone)
